@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #474F7A;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    height: 620px;
+    width: 45%;
+    max-width: 100%;
+    box-shadow: 10%;
+    border: none;
+    border-radius: 2%;
+}
+
+h1 {
+    color: darkslateblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heart {
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    width: 100%;
+    max-width: 20%;
+}
+
+p {
+    padding: 20px;
+}
+
+.boutique {
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    width: 100%;
+    max-width: 20%;
+}
+
+.check {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 36px;
+    width: 36px;
+}
+
+.form-check {
+    margin-left: 1rem;
+}
+
+.form-check-label {
+    font-size: 40px;
+    color: #fff;
+}
+
+iframe{
+    position: absolute;
+    z-index: -1;
+    margin-right: 2rem;
+    margin-top: 40rem;
+    /* display: flex;
+    justify-content: center;
+    margin-right: 2rem; */
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-color: #474F7A;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .card {
+        background-color: #fff;
+        height: 600px;
+        width: 95%;
+        max-width: 100%;
+        box-shadow: 10%;
+        border: none;
+        border-radius: 2%;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    
+    h1 {
+        color: darkslateblue;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 5rem;
+        padding-bottom: 4rem;
+    }
+    
+    .heart {
+        margin-left: 140px;
+        margin-top: 2rem;
+        width: 100%;
+        max-width: 20%;
+    }
+    
+    p {
+        padding: 20px;
+    }
+    
+    .boutique {
+        justify-content: center;
+        align-items: center;
+        margin-left: 220px;
+        width: 100%;
+        max-width: 20%;
+    }
+    
+    .check {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input {
+        height: 36px;
+        width: 36px;
+    }
+    
+    .form-check {
+        margin-left: 1rem;
+    }
+    
+    .form-check-label {
+        font-size: 40px;
+        color: #fff;
+    }
+    
+    iframe{
+        position: absolute;
+        z-index: -1;
+        margin-right: 0;
+        margin-top: 32rem;
+        width: 94%;
+       
+    }
+
+}
